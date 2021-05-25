@@ -1,5 +1,19 @@
+.app {
+  height: 100%;
+}
+
+h3 {
+  color: #3b3b3b;
+  padding-bottom: 0.8vh;
+}
+
 body {
+  background-color: #eaedfd10 !important;
+  width: 100%;
+  height: 100%;
   margin: 0;
+  padding-left: 18%;
+  padding-right: 18%;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -7,7 +21,164 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+@media only screen and (max-width: 1200px) {
+  body {
+    background-color: #eaedfd10 !important;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding-left: 8%;
+    padding-right: 8%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transition: all 250ms ease-in-out;
+  }
+
+  #image-container {
+    padding-right: 1%;
+  }
+  
+  #text-container {
+    padding-left: 1%;
+  }
+}
+
+.topnav {
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  text-align: center;
+  margin-top: 14px;
+  padding: 8px 24px;
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+
+.left-header {
+  float: left;
+}
+
+.right-header {
+  float: right;
+}
+
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  color: black;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.section {
+  height: 100%;
+  width: 100%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  text-align: center;
+}
+
+
+#main-page {
+  height: 100%;
+}
+
+#footer {
+  bottom:0;
+  color: black;
+  margin-bottom: 10px;
+  font-size: 12px;
+  left: 0px;
+  right: 0px;
+}
+
+div a {
+  text-decoration: none;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 25vw;
+  object-fit: cover;
+}
+
+#first-project {
+  background-color: #bef5b0;
+}
+
+#second-project {
+  background-color: #f5ebb0;
+}
+
+#third-project {
+  background-color: #f5b0d8;
+}
+
+.card {
+  text-align: left;
+}
+
+.row {
+  margin: 0;
+  padding: 0;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: left;
+  justify-content:center;
+  background-color: rgba(241, 241, 241, 0.226);
+  vertical-align: middle;
+  text-align: left;
+  height: 100%;
+  margin-left: 1%;
+}
+
+.about-description {
+  text-align: left;
+}
+
+#about-container {
+  margin-left: 18%;
+  margin-right: 18%;
+}
+
+.card-title {
+  color: #3b3b3b;
+}
+
+#image-container {
+  padding-right: 0;
+}
+
+#text-container {
+  padding-left: 0;
+}
+
+.tech-list {
+  padding-left: 0;
+}
+
+.tech-list li {
+  display:inline-flex;
+  color: #aaabaf;
+  padding-right: 10px;
+}
+
